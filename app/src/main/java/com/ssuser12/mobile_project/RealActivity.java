@@ -29,7 +29,7 @@ public class RealActivity extends MainActivity{
           @Override
           public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
               Intent intent= new Intent(RealActivity.this,Detail_1Activity.class);
-              intent.putExtra("detail",mid[i]);
+              intent.putExtra("detail",mid[0]);
               startActivity(intent);
               finish();
           }

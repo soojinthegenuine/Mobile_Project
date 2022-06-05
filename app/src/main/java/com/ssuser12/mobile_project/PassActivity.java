@@ -21,10 +21,10 @@ public class PassActivity extends MainActivity {
      btn1.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View view) {
-             if(edt2.equals(edt3)) {
-                 Intent intent = new Intent(getApplicationContext(), RealActivity.class);
-                 startActivity(intent);
-             }
+                 if(edt2.getText().toString().equals(edt3.getText().toString())) {
+                     Intent intent = new Intent(getApplicationContext(), RealActivity.class);
+                     startActivity(intent);
+                 }
             }
          });
           }

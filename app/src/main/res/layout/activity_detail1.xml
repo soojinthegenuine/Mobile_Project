@@ -9,7 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/tv1"
-        android:text="">
+        android:text="@string/smoothie"
+        android:gravity="center"
+        android:textSize="25dp">
 
 
     </TextView>
