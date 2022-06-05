@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mobile_Project</string>
+    <string name="login_fail">로그인 실패 \n\n 아이디와 비밀번호가 다릅니다. </string>
+    <string name="smoothie">스무디 원데이 클래스에 오신 여러분 환영합니다. \n\n\n
+        네온사인(부착판 4중 현장 택1) 27,900원\n\n
+        아크릴무드등 1인(원형or사각 현장 택1) 24,900원\n\n
+        단체석, 주차, 포장, 남/녀 화장실 구분</string>
+</resources>
