@@ -26,7 +26,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         gMap=googleMap;
         gMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(37.568256,126.897240),15));
+        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng
+                (37.568256,126.897240),15));
 
     }
 }
