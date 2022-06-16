@@ -7,6 +7,5 @@
     android:name="com.google.android.gms.maps.MapFragment"
     android:id="@+id/map"
     map:cameraTargetLat="37.541"
-    map:cameraTargetLng="126.986"
-    map:CameraZoom="10">
+    map:cameraTargetLng="126.986">
 </fragment>
