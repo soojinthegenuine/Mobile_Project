@@ -14,9 +14,6 @@ public class Detail_1Activity extends MainActivity{
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_detail1);
             tv1 = findViewById(R.id.tv1);
-            Intent intent = getIntent();
-            String text = intent.getExtras().getString("detail");
-            tv1.setText(text);
             btn1 = findViewById(R.id.btn1);
             btn1.setOnClickListener(new View.OnClickListener() {
                 @Override
